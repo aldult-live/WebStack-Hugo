@@ -30,7 +30,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # 设置数量，根据你有多少个 config_*.toml
-          TOTAL=30
+          TOTAL=5
           
           for i in $(seq 1 $TOTAL); do
             echo "🚧 构建第 $i 个站点..."
